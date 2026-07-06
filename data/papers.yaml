@@ -1,0 +1,44 @@
+- title: "RGB-D Salient Object Detection: A Survey"
+  year: 2020
+  venue: "arXiv"
+  tasks: ["RGBD-SOD"]
+  modalities: ["RGB-D", "LightField"]
+  settings: ["Survey"]
+  methods: ["Benchmark"]
+  paper: "https://arxiv.org/abs/2008.00230"
+  code: "https://github.com/taozh2017/RGBDSODsurvey"
+  note: "A useful survey for RGB-D SOD methods, datasets, and evaluation."
+
+- title: "A Unified Structure for Efficient RGB and RGB-D Salient Object Detection"
+  year: 2020
+  venue: "arXiv"
+  tasks: ["SOD", "RGBD-SOD"]
+  modalities: ["RGB", "RGB-D"]
+  settings: ["Full"]
+  methods: ["Fusion"]
+  paper: "https://arxiv.org/abs/2012.00437"
+  code: ""
+  note: "A compact unified architecture for both RGB and RGB-D SOD."
+
+- title: "RGB-D Salient Object Detection via 3D Convolutional Neural Networks"
+  year: 2021
+  venue: "arXiv"
+  tasks: ["RGBD-SOD"]
+  modalities: ["RGB-D"]
+  settings: ["Full"]
+  methods: ["Fusion"]
+  paper: "https://arxiv.org/abs/2101.10241"
+  code: "https://github.com/PPOLYpubki/RD3D"
+  note: "Uses 3D convolutions for progressive RGB-depth interaction."
+
+- title: "Salient Object Detection in RGB-D Videos"
+  year: 2023
+  venue: "arXiv"
+  tasks: ["RGBD-SOD", "VSOD"]
+  modalities: ["RGB-D", "Video"]
+  settings: ["Full"]
+  methods: ["Fusion"]
+  paper: "https://arxiv.org/abs/2310.15482"
+  code: "https://github.com/kerenfu/RDVS/"
+  note: "Introduces RGB-D video SOD data and temporal RGB-D modeling."
+

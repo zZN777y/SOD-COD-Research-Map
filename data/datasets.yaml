@@ -1,0 +1,14 @@
+- name: "RGBDSODsurvey resources"
+  task: ["RGBD-SOD"]
+  modality: ["RGB-D", "LightField"]
+  link: "https://github.com/taozh2017/RGBDSODsurvey"
+  annotation: "Collected models, benchmark datasets, evaluation resources"
+  note: "A good starting hub for RGB-D SOD datasets and evaluation."
+
+- name: "RDVS"
+  task: ["RGBD-SOD", "VSOD"]
+  modality: ["RGB-D", "Video"]
+  link: "https://github.com/kerenfu/RDVS/"
+  annotation: "Frame-level saliency annotations"
+  note: "Realistic RGB-D video SOD dataset introduced with DCTNet+."
+
