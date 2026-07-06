@@ -5,7 +5,6 @@ Papers, datasets, and notes on **Salient Object Detection (SOD)**, **Camouflaged
 Last updated: 2026-07-07
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## About
 
@@ -29,7 +28,6 @@ Pull requests and paper suggestions are welcome.
 - [Joint SOD-COD / Universal Foreground](#joint-sod-cod--universal-foreground)
 - [Video and Instance-Level Tasks](#video-and-instance-level-tasks)
 - [Datasets](#datasets)
-- [Reading Notes](#reading-notes)
 
 ## Task Labels
 
@@ -143,15 +141,9 @@ Pull requests and paper suggestions are welcome.
 | SIP | RGB-D SOD | [Project](https://github.com/DengPingFan/D3NetBenchmark) |
 | RDVS | RGB-D VSOD | [Project](https://github.com/kerenfu/RDVS/) |
 
-More dataset entries are kept in [`data/datasets.yaml`](data/datasets.yaml).
-
-## Reading Notes
-
-For papers that are worth reading carefully, I use [`docs/reading-note-template.md`](docs/reading-note-template.md).
-
 ## Contributing
 
-Contributions are welcome. Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request.
+Contributions are welcome.
 
 Recommended entry format:
 
