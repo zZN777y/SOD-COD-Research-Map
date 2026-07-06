@@ -53,6 +53,17 @@
   code: ""
   note: "Unsupervised COD with MLLM-guided graded knowledge distillation."
 
+- title: "EReCu: Pseudo-label Evolution Fusion and Refinement with Multi-Cue Learning for Unsupervised Camouflage Detection"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["COD"]
+  modalities: ["RGB"]
+  settings: ["Unsupervised"]
+  methods: ["Pseudo-Label", "Fusion"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_EReCu_Pseudo-label_Evolution_Fusion_and_Refinement_with_Multi-Cue_Learning_for_CVPR_2026_paper.html"
+  code: ""
+  note: "Unsupervised camouflaged object detection with pseudo-label evolution."
+
 - title: "M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection"
   year: 2026
   venue: "CVPR"
@@ -63,6 +74,138 @@
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html"
   code: ""
   note: "SAM-based RGB-D video salient object detection."
+
+- title: "A Survey of Camouflaged Object Detection and Beyond"
+  year: 2024
+  venue: "arXiv"
+  tasks: ["COD"]
+  modalities: ["RGB"]
+  settings: ["Survey"]
+  methods: ["Benchmark"]
+  paper: "https://arxiv.org/abs/2408.14562"
+  code: ""
+  note: "Recent survey on COD and related concealed scene understanding tasks."
+
+- title: "Advances in Deep Concealed Scene Understanding"
+  year: 2023
+  venue: "arXiv"
+  tasks: ["COD"]
+  modalities: ["RGB"]
+  settings: ["Survey"]
+  methods: ["Benchmark"]
+  paper: "https://arxiv.org/abs/2304.11234"
+  code: "https://github.com/DengPingFan/CSU"
+  note: "Survey and resource hub for concealed scene understanding."
+
+- title: "Camouflaged Object Detection"
+  year: 2020
+  venue: "CVPR"
+  tasks: ["COD"]
+  modalities: ["RGB"]
+  settings: ["Full"]
+  methods: ["Benchmark"]
+  paper: "https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html"
+  code: "https://github.com/DengPingFan/SINet/"
+  note: "Introduces COD10K and SINet."
+
+- title: "Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks"
+  year: 2020
+  venue: "CVPR"
+  tasks: ["RGBD-SOD"]
+  modalities: ["RGB-D"]
+  settings: ["Survey"]
+  methods: ["Benchmark"]
+  paper: "https://arxiv.org/abs/1907.06781"
+  code: "https://github.com/DengPingFan/D3NetBenchmark"
+  note: "RGB-D SOD benchmark and D3Net resources."
+
+- title: "Segment Anything"
+  year: 2023
+  venue: "ICCV"
+  tasks: ["SOD-COD"]
+  modalities: ["RGB", "Prompt"]
+  settings: ["Zero-Shot"]
+  methods: ["SAM", "Foundation"]
+  paper: "https://arxiv.org/abs/2304.02643"
+  code: "https://segment-anything.com"
+  note: "Foundation segmentation model widely adapted by SOD/COD work."
+
+- title: "SAM 2: Segment Anything in Images and Videos"
+  year: 2024
+  venue: "arXiv"
+  tasks: ["VSOD", "VCOD"]
+  modalities: ["RGB", "Video", "Prompt"]
+  settings: ["Zero-Shot"]
+  methods: ["SAM2", "Foundation"]
+  paper: "https://arxiv.org/abs/2408.00714"
+  code: ""
+  note: "Foundation model for image and video segmentation."
+
+- title: "A Simple Pooling-Based Design for Real-Time Salient Object Detection"
+  year: 2019
+  venue: "CVPR"
+  tasks: ["SOD"]
+  modalities: ["RGB"]
+  settings: ["Full"]
+  methods: ["Efficient"]
+  paper: "https://arxiv.org/abs/1904.09569"
+  code: "http://mmcheng.net/poolnet/"
+  note: "PoolNet baseline for RGB SOD."
+
+- title: "Cascaded Partial Decoder for Fast and Accurate Salient Object Detection"
+  year: 2019
+  venue: "CVPR"
+  tasks: ["SOD"]
+  modalities: ["RGB"]
+  settings: ["Full"]
+  methods: ["Efficient"]
+  paper: "https://arxiv.org/abs/1904.08739"
+  code: ""
+  note: "CPD baseline for fast RGB SOD."
+
+- title: "UC-Net: Uncertainty Inspired RGB-D Saliency Detection via Conditional Variational Autoencoders"
+  year: 2020
+  venue: "CVPR"
+  tasks: ["RGBD-SOD"]
+  modalities: ["RGB-D"]
+  settings: ["Full"]
+  methods: ["Uncertainty"]
+  paper: "https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_UC-Net_Uncertainty_Inspired_RGB-D_Saliency_Detection_via_Conditional_Variational_Autoencoders_CVPR_2020_paper.html"
+  code: ""
+  note: "Uncertainty-aware RGB-D saliency detection."
+
+- title: "Cross-Modal Weighting Network for RGB-D Salient Object Detection"
+  year: 2020
+  venue: "ECCV"
+  tasks: ["RGBD-SOD"]
+  modalities: ["RGB-D"]
+  settings: ["Full"]
+  methods: ["Fusion"]
+  paper: "https://arxiv.org/abs/2007.04901"
+  code: ""
+  note: "Cross-modal weighting for RGB-D SOD."
+
+- title: "Zoom In and Out: A Mixed-scale Triplet Network for Camouflaged Object Detection"
+  year: 2022
+  venue: "CVPR"
+  tasks: ["COD"]
+  modalities: ["RGB"]
+  settings: ["Full"]
+  methods: ["Scale"]
+  paper: "https://arxiv.org/abs/2203.02688"
+  code: "https://github.com/lartpang/ZoomNet"
+  note: "Mixed-scale COD model."
+
+- title: "Implicit Motion Handling for Video Camouflaged Object Detection"
+  year: 2022
+  venue: "CVPR"
+  tasks: ["VCOD"]
+  modalities: ["RGB", "Video"]
+  settings: ["Full"]
+  methods: ["Motion"]
+  paper: "https://arxiv.org/abs/2203.07363"
+  code: "https://xueliancheng.github.io/SLT-Net-project"
+  note: "Video camouflaged object detection with MoCA-Mask."
 
 - title: "RGB-D Salient Object Detection: A Survey"
   year: 2020

@@ -49,16 +49,24 @@ This is the tag set used in this repository. A paper can have multiple tags.
 | --- | --- |
 | `SAM` | Segment Anything Model or SAM-style promptable segmentation |
 | `SAM2` | Segment Anything Model 2 |
+| `CLIP` | CLIP-style image-text alignment |
+| `Foundation` | Foundation segmentation or vision-language model |
 | `VLM` | Vision-language model |
 | `MLLM` | Multimodal large language model |
 | `Prompt` | Manual, visual, text, or learned prompt design |
 | `Fusion` | Multi-modal or multi-level feature fusion |
 | `Multi-Task` | Joint training across multiple tasks or datasets |
 | `Efficient` | Lightweight, efficient, or resource-aware design |
+| `Real-Time` | Real-time or speed-oriented design |
 | `3D-CNN` | 3D convolutional modeling |
 | `Detection` | Detection-oriented formulation or output |
 | `Geometry` | Geometric structure, depth geometry, or shape priors |
 | `Distillation` | Teacher-student or knowledge distillation |
+| `Pseudo-Label` | Pseudo-label generation or refinement |
+| `Uncertainty` | Uncertainty modeling |
+| `Scale` | Multi-scale or scale-aware modeling |
+| `Motion` | Motion modeling for video tasks |
+| `Adapter` | Adapter-based tuning or lightweight adaptation |
 | `Transformer` | Transformer-based architecture |
 | `Mamba` | State-space model or Mamba-based architecture |
 | `Diffusion` | Diffusion model or generative prior |
