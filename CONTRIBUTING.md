@@ -18,7 +18,7 @@ Please keep entries easy to check:
 - include a stable paper link, such as arXiv, CVF Open Access, IEEE, ACM, Springer, OpenReview, or the project page;
 - include code only when the link is public and official or clearly maintained by the authors;
 - use tags from [`docs/taxonomy.md`](docs/taxonomy.md) when possible;
-- write a short "Why Read" note instead of only pasting the title;
+- keep the tag column short and informative;
 - avoid adding papers that are unrelated to object-level foreground segmentation.
 
 ## Pull Request Checklist
@@ -32,9 +32,9 @@ Please keep entries easy to check:
 ## Suggested Paper Entry
 
 ```markdown
-| Year | Venue | Tags | Paper | Links | Why Read |
+| Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| 2026 | CVPR | `SOD-COD` `RGB-D` `SAM` | Paper Title | [Paper](url) / [Code](url) | One short reason |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | Paper Title | `SAM` `Open-Vocab` | [Paper](url) / [Code](url) |
 ```
 
 ## Suggested YAML Entry

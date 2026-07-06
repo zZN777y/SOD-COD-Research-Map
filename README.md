@@ -11,113 +11,59 @@ Last updated: 2026-07-06
 
 I use this repository to keep track of papers and resources related to SOD and COD, especially the topics that connect to my own research: RGB-D SOD, RGB-D COD, SAM-based adaptation, and joint SOD-COD learning.
 
-The list is organized by research direction rather than only by year. I will keep adding papers that I have read or found useful.
+To avoid repeating the same paper in many sections, each paper is assigned one **primary task color**. Extra information such as `RGB-D`, `SAM`, `Open-Vocab`, or `Unsupervised` is kept in the tag column.
 
 Pull requests and paper suggestions are welcome.
 
 ## Contents
 
-- [Research Map](#research-map)
-- [Legend](#legend)
-- [Latest Additions](#latest-additions)
-- [Survey and Benchmark Papers](#survey-and-benchmark-papers)
-- [RGB-D Salient Object Detection](#rgb-d-salient-object-detection)
-- [RGB-D Camouflaged Object Detection](#rgb-d-camouflaged-object-detection)
-- [Joint SOD-COD and Universal Foreground Segmentation](#joint-sod-cod-and-universal-foreground-segmentation)
-- [Foundation Models and SAM Adaptation](#foundation-models-and-sam-adaptation)
-- [Learning Settings](#learning-settings)
-- [Datasets](#datasets)
+- [Color Labels](#color-labels)
+- [CVPR 2026](#cvpr-2026)
+- [Paper List](#paper-list)
+- [Surveys and Datasets](#surveys-and-datasets)
 - [Reading Notes](#reading-notes)
 - [Contributing](#contributing)
 
-## Research Map
+## Color Labels
 
-The current structure is:
-
-| Track | Focus | Example Topics |
-| --- | --- | --- |
-| **SOD** | Detecting visually salient objects | RGB SOD, RGB-D SOD, VSOD, light-field SOD |
-| **COD** | Detecting objects hidden in similar backgrounds | COD, COS, VCOD, RGB-D COD |
-| **SOD-COD** | Learning common foreground representations across SOD and COD | joint training, universal foreground segmentation, task prompts |
-| **Foundation Models** | Adapting SAM and related foundation models | SAM fine-tuning, visual prompts, PEFT, open vocabulary |
-| **Cross-Modal Fusion** | Using RGB, depth, motion, text, or frequency cues together | RGB-D fusion, depth reliability, frequency-domain fusion |
-| **Efficient Learning** | Reducing annotation or computation cost | weak supervision, semi-supervision, test-time adaptation |
-
-## Legend
-
-I use the following tags to keep the tables short.
-
-| Field | Tags |
+| Label | Scope |
 | --- | --- |
-| Task | `SOD`, `COD`, `SOD-COD`, `RGBD-SOD`, `RGBD-COD`, `VSOD`, `VCOD`, `COS` |
-| Modality | `RGB`, `Depth`, `RGB-D`, `Video`, `Text`, `Prompt`, `Thermal`, `LightField` |
-| Setting | `Full`, `Survey`, `Weak`, `Semi`, `Unsupervised`, `Zero-Shot`, `Open-Vocab`, `PEFT`, `TTA` |
-| Method | `SAM`, `Prompt`, `Fusion`, `Multi-Task`, `Transformer`, `Mamba`, `Diffusion`, `Frequency`, `Boundary`, `Depth-Reliability`, `Benchmark`, `Efficient`, `3D-CNN` |
+| ![SOD](https://img.shields.io/badge/-SOD-2EA44F?style=flat-square) | Salient object detection |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | Camouflaged object detection / segmentation |
+| ![SOD-COD](https://img.shields.io/badge/-SOD--COD-8E44AD?style=flat-square) | Joint or unified SOD-COD learning |
+| ![RGBD-SOD](https://img.shields.io/badge/-RGBD--SOD-F2994A?style=flat-square) | RGB-D salient object detection |
+| ![RGBD-COD](https://img.shields.io/badge/-RGBD--COD-D35400?style=flat-square) | RGB-D camouflaged object detection |
+| ![SURVEY](https://img.shields.io/badge/-SURVEY-6C757D?style=flat-square) | Survey, benchmark, or dataset paper |
 
-## Latest Additions
+## CVPR 2026
 
-Newly read papers will be added here first, then moved into the corresponding sections.
-
-| Date | Year | Venue | Tags | Paper | Links | Note |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-06 | TODO | TODO | `RGBD-SOD` `SAM` `PEFT` | RGB-D SOD with SAM fine-tuning | Paper / Code | To be updated after release |
-| 2026-07-06 | TODO | TODO | `SOD-COD` `RGB-D` `Multi-Task` | Joint RGB-D COD and SOD training | Paper / Code | To be updated after release |
-
-## Survey and Benchmark Papers
-
-| Year | Venue | Tags | Paper | Links | Why Read |
+| Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| 2020 | arXiv | `RGBD-SOD` `Survey` `Benchmark` | RGB-D Salient Object Detection: A Survey | [Paper](https://arxiv.org/abs/2008.00230) / [Project](https://github.com/taozh2017/RGBDSODsurvey) | Good entry point for RGB-D SOD methods, datasets, and evaluation |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection | `Open-Vocab` `Text` `Detection` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liang_SDDF_Specificity-Driven_Dynamic_Focusing_for_Open-Vocabulary_Camouflaged_Object_Detection_CVPR_2026_paper.html) / [Code](https://github.com/Zh1fen/SDDF) |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | Seeing Both Sides: Towards Bidirectional Semantic Alignment for Open-Vocabulary Camouflaged Object Segmentation | `Open-Vocab` `Text` `SAM` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Seeing_Both_Sides_Towards_Bidirectional_Semantic_Alignment_for_Open-Vocabulary_Camouflaged_CVPR_2026_paper.html) / [Code](https://github.com/okmaybach/BaCLIP-CVPR2026) |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | Beyond Appearance: Camouflaged Object Detection via Geometric Structure | `Depth` `SAM` `Geometry` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.html) |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | Training-Free Open-Vocabulary Camouflaged Object Segmentation via Fine-Grained Object Binding and Adaptive Hybrid Prompt | `Open-Vocab` `Training-Free` `SAM` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Ren_Training-Free_Open-Vocabulary_Camouflaged_Object_Segmentation_via_Fine-Grained_Object_Binding_and_CVPR_2026_paper.html) |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | Beyond Weak Supervision: MLLMs-Guided Graded Knowledge Distillation for Unsupervised Camouflaged Object Detection | `Unsupervised` `MLLM` `SAM` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Beyond_Weak_Supervision_MLLMs-Guided_Graded_Knowledge_Distillation_for_Unsupervised_Camouflaged_CVPR_2026_paper.html) |
+| ![RGBD-SOD](https://img.shields.io/badge/-RGBD--SOD-F2994A?style=flat-square) | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` `PEFT` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
 
-## RGB-D Salient Object Detection
+## Paper List
 
-| Year | Venue | Tags | Paper | Links | Why Read |
+| Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| 2020 | arXiv | `RGBD-SOD` `Fusion` `Efficient` | A Unified Structure for Efficient RGB and RGB-D Salient Object Detection | [Paper](https://arxiv.org/abs/2012.00437) | Useful for thinking about unified RGB/RGB-D architectures |
-| 2021 | arXiv | `RGBD-SOD` `3D-CNN` `Fusion` | RGB-D Salient Object Detection via 3D Convolutional Neural Networks | [Paper](https://arxiv.org/abs/2101.10241) / [Code](https://github.com/PPOLYpubki/RD3D) | Shows encoder and decoder fusion with 3D convolutions |
-| 2023 | arXiv | `RGBD-SOD` `VSOD` `Benchmark` | Salient Object Detection in RGB-D Videos | [Paper](https://arxiv.org/abs/2310.15482) / [Code](https://github.com/kerenfu/RDVS/) | Useful for temporal RGB-D saliency and dataset design |
+| ![RGBD-SOD](https://img.shields.io/badge/-RGBD--SOD-F2994A?style=flat-square) | 2023/Oct | arXiv | Salient Object Detection in RGB-D Videos | `RGB-D` `Video` `Benchmark` | [Paper](https://arxiv.org/abs/2310.15482) / [Code](https://github.com/kerenfu/RDVS/) |
+| ![RGBD-SOD](https://img.shields.io/badge/-RGBD--SOD-F2994A?style=flat-square) | 2021/Jan | arXiv | RGB-D Salient Object Detection via 3D Convolutional Neural Networks | `RGB-D` `3D-CNN` `Fusion` | [Paper](https://arxiv.org/abs/2101.10241) / [Code](https://github.com/PPOLYpubki/RD3D) |
+| ![RGBD-SOD](https://img.shields.io/badge/-RGBD--SOD-F2994A?style=flat-square) | 2020/Dec | arXiv | A Unified Structure for Efficient RGB and RGB-D Salient Object Detection | `RGB-D` `RGB` `Efficient` | [Paper](https://arxiv.org/abs/2012.00437) |
+| ![SOD-COD](https://img.shields.io/badge/-SOD--COD-8E44AD?style=flat-square) | TODO | TODO | Joint RGB-D COD and SOD training | `RGB-D` `Multi-Task` | Paper / Code |
+| ![RGBD-SOD](https://img.shields.io/badge/-RGBD--SOD-F2994A?style=flat-square) | TODO | TODO | RGB-D SOD with SAM fine-tuning | `RGB-D` `SAM` `PEFT` | Paper / Code |
 
-## RGB-D Camouflaged Object Detection
+## Surveys and Datasets
 
-| Year | Venue | Tags | Paper | Links | Why Read |
+| Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| TODO | TODO | `RGBD-COD` `Fusion` | Depth-assisted COD papers | Paper / Code | Focus on depth reliability and cross-modal fusion |
+| ![SURVEY](https://img.shields.io/badge/-SURVEY-6C757D?style=flat-square) | 2020/Aug | arXiv | RGB-D Salient Object Detection: A Survey | `RGBD-SOD` `Survey` `Benchmark` | [Paper](https://arxiv.org/abs/2008.00230) / [Project](https://github.com/taozh2017/RGBDSODsurvey) |
+| ![SURVEY](https://img.shields.io/badge/-SURVEY-6C757D?style=flat-square) | 2023/Oct | arXiv | Salient Object Detection in RGB-D Videos | `RGB-D` `Video` `Dataset` | [Paper](https://arxiv.org/abs/2310.15482) / [Code](https://github.com/kerenfu/RDVS/) |
 
-## Joint SOD-COD and Universal Foreground Segmentation
-
-| Year | Venue | Tags | Paper | Links | Why Read |
-| --- | --- | --- | --- | --- | --- |
-| TODO | TODO | `SOD-COD` `Multi-Task` | Joint SOD-COD papers | Paper / Code | Core track for unified salient and concealed foreground learning |
-| TODO | TODO | `SOD-COD` `Universal` `Prompt` | Universal foreground segmentation papers | Paper / Code | Useful for task prompts and foreground generalization |
-
-## Foundation Models and SAM Adaptation
-
-| Year | Venue | Tags | Paper | Links | Why Read |
-| --- | --- | --- | --- | --- | --- |
-| TODO | TODO | `SAM` `RGBD-SOD` `PEFT` | SAM adaptation for RGB-D SOD | Paper / Code | Closely related to RGB-D SOD with foundation models |
-| TODO | TODO | `SAM` `COD` `Prompt` | SAM adaptation for COD/COS | Paper / Code | Good place for prompt, mask, and adapter methods |
-| TODO | TODO | `VLM` `Open-Vocab` `SOD-COD` | Vision-language models for foreground segmentation | Paper / Code | Track open-vocabulary and language-guided methods |
-
-## Learning Settings
-
-| Setting | What to Collect |
-| --- | --- |
-| Fully supervised | Strong baselines and high-performance architectures |
-| Weakly supervised | Scribble, point, box, text, pseudo-mask, and SAM-assisted supervision |
-| Semi-supervised | Teacher-student, consistency, pseudo-label refinement |
-| Unsupervised | Discovery, clustering, self-training, generative priors |
-| Zero-shot / open-vocabulary | Prompting, VLM/MLLM priors, class-text interaction |
-| Test-time adaptation | Online adaptation, domain shift, reliability-aware inference |
-
-## Datasets
-
-Dataset entries live in [`data/datasets.yaml`](data/datasets.yaml). Useful fields include:
-
-- task and modality;
-- train/test split if available;
-- annotation type;
-- project link;
-- license or usage note when known.
+Dataset entries are also kept in [`data/datasets.yaml`](data/datasets.yaml).
 
 ## Reading Notes
 
@@ -136,9 +82,9 @@ Contributions are welcome. Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) befo
 Recommended entry format:
 
 ```markdown
-| Year | Venue | Tags | Paper | Links | Why Read |
+| Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| 2026 | CVPR | `SOD-COD` `SAM` `Prompt` | Paper Title | [Paper](url) / [Code](url) | One short reason |
+| ![COD](https://img.shields.io/badge/-COD-2F80ED?style=flat-square) | 2026/Jun | CVPR | Paper Title | `SAM` `Open-Vocab` | [Paper](url) / [Code](url) |
 ```
 
 ## Citation

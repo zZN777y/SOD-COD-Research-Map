@@ -1,3 +1,69 @@
+- title: "SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["COD"]
+  modalities: ["RGB", "Text"]
+  settings: ["Open-Vocab"]
+  methods: ["Prompt", "Detection"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_SDDF_Specificity-Driven_Dynamic_Focusing_for_Open-Vocabulary_Camouflaged_Object_Detection_CVPR_2026_paper.html"
+  code: "https://github.com/Zh1fen/SDDF"
+  note: "Open-vocabulary camouflaged object detection."
+
+- title: "Seeing Both Sides: Towards Bidirectional Semantic Alignment for Open-Vocabulary Camouflaged Object Segmentation"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["COD", "COS"]
+  modalities: ["RGB", "Text"]
+  settings: ["Open-Vocab"]
+  methods: ["SAM", "Prompt"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Seeing_Both_Sides_Towards_Bidirectional_Semantic_Alignment_for_Open-Vocabulary_Camouflaged_CVPR_2026_paper.html"
+  code: "https://github.com/okmaybach/BaCLIP-CVPR2026"
+  note: "Open-vocabulary camouflaged object segmentation with bidirectional semantic alignment."
+
+- title: "Beyond Appearance: Camouflaged Object Detection via Geometric Structure"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["COD"]
+  modalities: ["RGB", "Depth"]
+  settings: ["Full"]
+  methods: ["SAM", "Depth-Reliability", "Geometry"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.html"
+  code: ""
+  note: "Uses geometric structure cues for camouflaged object detection."
+
+- title: "Training-Free Open-Vocabulary Camouflaged Object Segmentation via Fine-Grained Object Binding and Adaptive Hybrid Prompt"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["COD", "COS"]
+  modalities: ["RGB", "Text", "Prompt"]
+  settings: ["Zero-Shot", "Open-Vocab"]
+  methods: ["SAM", "Prompt", "Training-Free"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Ren_Training-Free_Open-Vocabulary_Camouflaged_Object_Segmentation_via_Fine-Grained_Object_Binding_and_CVPR_2026_paper.html"
+  code: ""
+  note: "Training-free open-vocabulary camouflaged object segmentation."
+
+- title: "Beyond Weak Supervision: MLLMs-Guided Graded Knowledge Distillation for Unsupervised Camouflaged Object Detection"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["COD"]
+  modalities: ["RGB", "Text"]
+  settings: ["Unsupervised"]
+  methods: ["SAM", "MLLM", "Distillation"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Beyond_Weak_Supervision_MLLMs-Guided_Graded_Knowledge_Distillation_for_Unsupervised_Camouflaged_CVPR_2026_paper.html"
+  code: ""
+  note: "Unsupervised COD with MLLM-guided graded knowledge distillation."
+
+- title: "M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection"
+  year: 2026
+  venue: "CVPR"
+  tasks: ["RGBD-SOD", "VSOD"]
+  modalities: ["RGB-D", "Video"]
+  settings: ["PEFT"]
+  methods: ["SAM", "Fusion", "Multi-Task"]
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html"
+  code: ""
+  note: "SAM-based RGB-D video salient object detection."
+
 - title: "RGB-D Salient Object Detection: A Survey"
   year: 2020
   venue: "arXiv"
@@ -41,4 +107,3 @@
   paper: "https://arxiv.org/abs/2310.15482"
   code: "https://github.com/kerenfu/RDVS/"
   note: "Introduces RGB-D video SOD data and temporal RGB-D modeling."
-

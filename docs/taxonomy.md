@@ -41,12 +41,14 @@ This is the tag set used in this repository. A paper can have multiple tags.
 | `Open-Vocab` | Open-vocabulary or class-generalized inference |
 | `PEFT` | Parameter-efficient fine-tuning |
 | `TTA` | Test-time adaptation |
+| `Training-Free` | No target-task training or fine-tuning |
 
 ## Method Tags
 
 | Tag | Meaning |
 | --- | --- |
 | `SAM` | Segment Anything Model or SAM-style promptable segmentation |
+| `SAM2` | Segment Anything Model 2 |
 | `VLM` | Vision-language model |
 | `MLLM` | Multimodal large language model |
 | `Prompt` | Manual, visual, text, or learned prompt design |
@@ -54,6 +56,9 @@ This is the tag set used in this repository. A paper can have multiple tags.
 | `Multi-Task` | Joint training across multiple tasks or datasets |
 | `Efficient` | Lightweight, efficient, or resource-aware design |
 | `3D-CNN` | 3D convolutional modeling |
+| `Detection` | Detection-oriented formulation or output |
+| `Geometry` | Geometric structure, depth geometry, or shape priors |
+| `Distillation` | Teacher-student or knowledge distillation |
 | `Transformer` | Transformer-based architecture |
 | `Mamba` | State-space model or Mamba-based architecture |
 | `Diffusion` | Diffusion model or generative prior |
@@ -61,6 +66,7 @@ This is the tag set used in this repository. A paper can have multiple tags.
 | `Boundary` | Boundary, contour, or structure-aware modeling |
 | `Depth-Reliability` | Explicit depth quality or reliability estimation |
 | `Benchmark` | Dataset, benchmark, evaluation protocol, or leaderboard resource |
+| `Dataset` | Dataset paper or dataset resource |
 
 ## Recommended Placement
 
