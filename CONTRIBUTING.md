@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve this SOD-COD research map.
+Thanks for helping improve this list.
 
 ## What to Add
 
@@ -9,16 +9,16 @@ Good additions include:
 - papers on SOD, COD, RGB-D SOD, RGB-D COD, VSOD, VCOD, COS, and joint SOD-COD learning;
 - SAM, VLM, MLLM, or foundation-model adaptation for foreground segmentation;
 - datasets, benchmarks, evaluation code, and survey papers;
-- concise reading notes that explain why a paper matters.
+- reading notes that explain why a paper is worth tracking.
 
 ## Entry Rules
 
-Please keep entries useful and easy to verify:
+Please keep entries easy to check:
 
 - include a stable paper link, such as arXiv, CVF Open Access, IEEE, ACM, Springer, OpenReview, or the project page;
 - include code only when the link is public and official or clearly maintained by the authors;
 - use tags from [`docs/taxonomy.md`](docs/taxonomy.md) when possible;
-- write a short "Why Read" note instead of only pasting a title;
+- write a short "Why Read" note instead of only pasting the title;
 - avoid adding papers that are unrelated to object-level foreground segmentation.
 
 ## Pull Request Checklist
@@ -51,4 +51,3 @@ Please keep entries useful and easy to verify:
   code: "https://github.com/example/repo"
   note: "One short reason this paper is useful."
 ```
-

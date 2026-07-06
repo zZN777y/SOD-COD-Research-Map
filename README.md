@@ -1,29 +1,19 @@
 # SOD-COD Research Map
 
-Curated papers, datasets, and resources for **Salient Object Detection (SOD)**, **Camouflaged Object Detection (COD)**, RGB-D perception, SAM adaptation, and unified foreground segmentation.
+Papers, datasets, and notes on **Salient Object Detection (SOD)**, **Camouflaged Object Detection (COD)**, RGB-D perception, SAM adaptation, and unified foreground segmentation.
 
 Last updated: 2026-07-06
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Why This List
+## About
 
-Most existing lists are either SOD-centric or COD-centric. This repository is designed as a bridge:
+I use this repository to keep track of papers and resources related to SOD and COD, especially the topics that connect to my own research: RGB-D SOD, RGB-D COD, SAM-based adaptation, and joint SOD-COD learning.
 
-- **SOD side:** salient object detection, RGB-D SOD, video SOD, light-field SOD.
-- **COD side:** camouflaged object detection, camouflaged segmentation, RGB-D COD, video COD.
-- **Bridge side:** joint SOD-COD training, universal foreground segmentation, SAM/Segment Anything adaptation, prompt tuning, multi-task learning, and open-vocabulary settings.
+The list is organized by research direction rather than only by year. I will keep adding papers that I have read or found useful.
 
-The goal is not to be a duplicate paper dump. Each entry should help readers answer: *what problem does this paper study, what modality does it use, and why is it useful for SOD-COD research?*
-
-Suggested repository description:
-
-> Curated papers, datasets, and resources for SOD, COD, RGB-D perception, SAM adaptation, and unified foreground segmentation.
-
-Suggested GitHub topics:
-
-`awesome-list`, `salient-object-detection`, `camouflaged-object-detection`, `rgb-d`, `sod`, `cod`, `sam`, `segment-anything`, `computer-vision`, `paper-list`
+Pull requests and paper suggestions are welcome.
 
 ## Contents
 
@@ -42,20 +32,20 @@ Suggested GitHub topics:
 
 ## Research Map
 
-This repository uses a taxonomy-first structure so that papers can be found by research intent, not only by publication year.
+The current structure is:
 
-| Track | Typical Questions | Example Topics |
+| Track | Focus | Example Topics |
 | --- | --- | --- |
-| **SOD** | What makes an object visually salient? | RGB SOD, RGB-D SOD, VSOD, light-field SOD |
-| **COD** | How can hidden or camouflaged targets be separated from background? | COD, COS, VCOD, RGB-D COD |
-| **SOD-COD Bridge** | Can one model handle both salient and concealed foregrounds? | joint training, universal foreground segmentation, task prompting |
-| **Foundation Models** | How can SAM/VLM/MLLM priors be adapted? | SAM fine-tuning, visual prompts, PEFT, open vocabulary |
-| **Cross-Modal Fusion** | When and how should RGB, depth, text, motion, or frequency cues interact? | RGB-D fusion, depth reliability, frequency-domain fusion |
-| **Efficient Learning** | How can we reduce annotation or compute cost? | weak/semi/unsupervised learning, test-time adaptation, lightweight models |
+| **SOD** | Detecting visually salient objects | RGB SOD, RGB-D SOD, VSOD, light-field SOD |
+| **COD** | Detecting objects hidden in similar backgrounds | COD, COS, VCOD, RGB-D COD |
+| **SOD-COD** | Learning common foreground representations across SOD and COD | joint training, universal foreground segmentation, task prompts |
+| **Foundation Models** | Adapting SAM and related foundation models | SAM fine-tuning, visual prompts, PEFT, open vocabulary |
+| **Cross-Modal Fusion** | Using RGB, depth, motion, text, or frequency cues together | RGB-D fusion, depth reliability, frequency-domain fusion |
+| **Efficient Learning** | Reducing annotation or computation cost | weak supervision, semi-supervision, test-time adaptation |
 
 ## Legend
 
-Use compact tags to make entries easy to scan.
+I use the following tags to keep the tables short.
 
 | Field | Tags |
 | --- | --- |
@@ -66,12 +56,12 @@ Use compact tags to make entries easy to scan.
 
 ## Latest Additions
 
-Add newly read papers here first, then move them into the stable sections below.
+Newly read papers will be added here first, then moved into the corresponding sections.
 
 | Date | Year | Venue | Tags | Paper | Links | Note |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-06 | TODO | TODO | `RGBD-SOD` `SAM` `PEFT` | Your first paper: RGB-D SOD with SAM fine-tuning | Paper / Code | Add after public release |
-| 2026-07-06 | TODO | TODO | `SOD-COD` `RGB-D` `Multi-Task` | Your second paper: joint RGB-D COD and SOD training | Paper / Code | Add after public release |
+| 2026-07-06 | TODO | TODO | `RGBD-SOD` `SAM` `PEFT` | RGB-D SOD with SAM fine-tuning | Paper / Code | To be updated after release |
+| 2026-07-06 | TODO | TODO | `SOD-COD` `RGB-D` `Multi-Task` | Joint RGB-D COD and SOD training | Paper / Code | To be updated after release |
 
 ## Survey and Benchmark Papers
 
@@ -91,20 +81,20 @@ Add newly read papers here first, then move them into the stable sections below.
 
 | Year | Venue | Tags | Paper | Links | Why Read |
 | --- | --- | --- | --- | --- | --- |
-| TODO | TODO | `RGBD-COD` `Fusion` | Add depth-assisted COD papers here | Paper / Code | Focus on depth reliability and cross-modal fusion |
+| TODO | TODO | `RGBD-COD` `Fusion` | Depth-assisted COD papers | Paper / Code | Focus on depth reliability and cross-modal fusion |
 
 ## Joint SOD-COD and Universal Foreground Segmentation
 
 | Year | Venue | Tags | Paper | Links | Why Read |
 | --- | --- | --- | --- | --- | --- |
-| TODO | TODO | `SOD-COD` `Multi-Task` | Add joint SOD-COD papers here | Paper / Code | Core track for unified salient and concealed foreground learning |
-| TODO | TODO | `SOD-COD` `Universal` `Prompt` | Add universal foreground segmentation papers here | Paper / Code | Useful for task prompts and foreground generalization |
+| TODO | TODO | `SOD-COD` `Multi-Task` | Joint SOD-COD papers | Paper / Code | Core track for unified salient and concealed foreground learning |
+| TODO | TODO | `SOD-COD` `Universal` `Prompt` | Universal foreground segmentation papers | Paper / Code | Useful for task prompts and foreground generalization |
 
 ## Foundation Models and SAM Adaptation
 
 | Year | Venue | Tags | Paper | Links | Why Read |
 | --- | --- | --- | --- | --- | --- |
-| TODO | TODO | `SAM` `RGBD-SOD` `PEFT` | SAM adaptation for RGB-D SOD | Paper / Code | Keep papers related to your first work here |
+| TODO | TODO | `SAM` `RGBD-SOD` `PEFT` | SAM adaptation for RGB-D SOD | Paper / Code | Closely related to RGB-D SOD with foundation models |
 | TODO | TODO | `SAM` `COD` `Prompt` | SAM adaptation for COD/COS | Paper / Code | Good place for prompt, mask, and adapter methods |
 | TODO | TODO | `VLM` `Open-Vocab` `SOD-COD` | Vision-language models for foreground segmentation | Paper / Code | Track open-vocabulary and language-guided methods |
 
@@ -121,7 +111,7 @@ Add newly read papers here first, then move them into the stable sections below.
 
 ## Datasets
 
-Dataset entries live in [`data/datasets.yaml`](data/datasets.yaml). Prefer adding:
+Dataset entries live in [`data/datasets.yaml`](data/datasets.yaml). Useful fields include:
 
 - task and modality;
 - train/test split if available;
@@ -131,7 +121,7 @@ Dataset entries live in [`data/datasets.yaml`](data/datasets.yaml). Prefer addin
 
 ## Reading Notes
 
-Use [`docs/reading-note-template.md`](docs/reading-note-template.md) for papers you care about. A useful note should record:
+For papers that are worth reading carefully, I use [`docs/reading-note-template.md`](docs/reading-note-template.md). A note usually records:
 
 - the paper's core problem;
 - its main idea in one sentence;
@@ -153,4 +143,4 @@ Recommended entry format:
 
 ## Citation
 
-If this repository helps your research, please consider starring it and citing the original papers listed here.
+If this repository is useful for your work, please consider starring it and citing the original papers listed here.

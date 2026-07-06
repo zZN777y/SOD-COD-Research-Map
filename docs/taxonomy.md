@@ -1,6 +1,6 @@
 # Taxonomy
 
-This repository is organized around research intent. A paper can have multiple tags.
+This is the tag set used in this repository. A paper can have multiple tags.
 
 ## Task Tags
 
@@ -64,7 +64,7 @@ This repository is organized around research intent. A paper can have multiple t
 
 ## Recommended Placement
 
-When one paper fits multiple sections, place it where it is most useful for readers.
+When one paper fits multiple sections, place it where it will be easiest to find.
 
 Examples:
 
