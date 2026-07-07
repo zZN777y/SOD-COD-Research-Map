@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <img alt="SOD" src="https://img.shields.io/badge/SOD-00B050?style=for-the-badge">
-  <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge">
-  <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge">
-  <img alt="SAM" src="https://img.shields.io/badge/SAM-8A2BE2?style=for-the-badge">
+  <img width="92" alt="SOD" src="https://img.shields.io/badge/SOD-00C853?style=for-the-badge">
+  <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge">
+  <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge">
+  <img width="92" alt="SAM" src="https://img.shields.io/badge/SAM-9B00FF?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -46,13 +46,13 @@ Each topic section is sorted by release date, newest first. Recent top-conferenc
 
 | Label | Scope |
 | --- | --- |
-| <img alt="SOD" src="https://img.shields.io/badge/SOD-00B050?style=for-the-badge"> | Salient object detection |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | Camouflaged object detection / segmentation |
-| <img alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-8A2BE2?style=for-the-badge"> | Joint SOD-COD or general foreground segmentation |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | RGB-D salient object detection |
-| <img alt="RGBD-COD" src="https://img.shields.io/badge/RGBD--COD-D00000?style=for-the-badge"> | RGB-D camouflaged object detection |
-| <img alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00B8C8?style=for-the-badge"> | Video SOD / COD |
-| <img alt="SURVEY" src="https://img.shields.io/badge/SURVEY-555555?style=for-the-badge"> | Survey, benchmark, or dataset paper |
+| <img width="92" alt="SOD" src="https://img.shields.io/badge/SOD-00C853?style=for-the-badge"> | Salient object detection |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | Camouflaged object detection / segmentation |
+| <img width="128" alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-9B00FF?style=for-the-badge"> | Joint SOD-COD or general foreground segmentation |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | RGB-D salient object detection |
+| <img width="128" alt="RGB-D COD" src="https://img.shields.io/badge/RGB--D%20COD-FF1F00?style=for-the-badge"> | RGB-D camouflaged object detection |
+| <img width="104" alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00CFE8?style=for-the-badge"> | Video SOD / COD |
+| <img width="112" alt="SURVEY" src="https://img.shields.io/badge/SURVEY-3A3A3A?style=for-the-badge"> | Survey, benchmark, or dataset paper |
 
 ## Latest Work
 
@@ -60,12 +60,12 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection | `Open-Vocab` `Text` `Detection` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liang_SDDF_Specificity-Driven_Dynamic_Focusing_for_Open-Vocabulary_Camouflaged_Object_Detection_CVPR_2026_paper.html) / [Code](https://github.com/Zh1fen/SDDF) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | Seeing Both Sides: Towards Bidirectional Semantic Alignment for Open-Vocabulary Camouflaged Object Segmentation | `Open-Vocab` `Text` `CLIP` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Seeing_Both_Sides_Towards_Bidirectional_Semantic_Alignment_for_Open-Vocabulary_Camouflaged_CVPR_2026_paper.html) / [Code](https://github.com/okmaybach/BaCLIP-CVPR2026) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | EReCu: Pseudo-label Evolution Fusion and Refinement with Multi-Cue Learning for Unsupervised Camouflage Detection | `Unsupervised` `Pseudo-Label` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_EReCu_Pseudo-label_Evolution_Fusion_and_Refinement_with_Multi-Cue_Learning_for_CVPR_2026_paper.html) / [arXiv](https://arxiv.org/abs/2603.11521) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2025/Sep | ACM MM | LEAF-Mamba: Local Emphatic and Adaptive Fusion State Space Model for RGB-D Salient Object Detection | `RGB-D` `Mamba` `Fusion` | [Paper](https://arxiv.org/abs/2509.18683) |
-| <img alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00B8C8?style=for-the-badge"> | 2025/Mar | arXiv | CamSAM2: Segment Anything Accurately in Camouflaged Videos | `VCOS` `SAM2` `Video` | [Paper](https://arxiv.org/abs/2503.19730) / [Code](https://github.com/zhoustan/CamSAM2) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection | `Open-Vocab` `Text` `Detection` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liang_SDDF_Specificity-Driven_Dynamic_Focusing_for_Open-Vocabulary_Camouflaged_Object_Detection_CVPR_2026_paper.html) / [Code](https://github.com/Zh1fen/SDDF) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | Seeing Both Sides: Towards Bidirectional Semantic Alignment for Open-Vocabulary Camouflaged Object Segmentation | `Open-Vocab` `Text` `CLIP` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Seeing_Both_Sides_Towards_Bidirectional_Semantic_Alignment_for_Open-Vocabulary_Camouflaged_CVPR_2026_paper.html) / [Code](https://github.com/okmaybach/BaCLIP-CVPR2026) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | EReCu: Pseudo-label Evolution Fusion and Refinement with Multi-Cue Learning for Unsupervised Camouflage Detection | `Unsupervised` `Pseudo-Label` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_EReCu_Pseudo-label_Evolution_Fusion_and_Refinement_with_Multi-Cue_Learning_for_CVPR_2026_paper.html) / [arXiv](https://arxiv.org/abs/2603.11521) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2025/Sep | ACM MM | LEAF-Mamba: Local Emphatic and Adaptive Fusion State Space Model for RGB-D Salient Object Detection | `RGB-D` `Mamba` `Fusion` | [Paper](https://arxiv.org/abs/2509.18683) |
+| <img width="104" alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00CFE8?style=for-the-badge"> | 2025/Mar | arXiv | CamSAM2: Segment Anything Accurately in Camouflaged Videos | `VCOS` `SAM2` `Video` | [Paper](https://arxiv.org/abs/2503.19730) / [Code](https://github.com/zhoustan/CamSAM2) |
 
 ## Surveys and Benchmarks
 
@@ -73,11 +73,11 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="SURVEY" src="https://img.shields.io/badge/SURVEY-555555?style=for-the-badge"> | 2024/Aug | arXiv | A Survey of Camouflaged Object Detection and Beyond | `COD` `Survey` | [Paper](https://arxiv.org/abs/2408.14562) |
-| <img alt="SURVEY" src="https://img.shields.io/badge/SURVEY-555555?style=for-the-badge"> | 2024/Jun | arXiv | ViDSOD-100: A New Dataset and A Baseline Model for RGB-D Video Salient Object Detection | `RGB-D` `Video` `Dataset` | [Paper](https://arxiv.org/abs/2406.12536) / [Code](https://github.com/jhl-Det/RGBD_Video_SOD) |
-| <img alt="SURVEY" src="https://img.shields.io/badge/SURVEY-555555?style=for-the-badge"> | 2023/Apr | arXiv | Advances in Deep Concealed Scene Understanding | `COD` `Survey` `Benchmark` | [Paper](https://arxiv.org/abs/2304.11234) / [Project](https://github.com/DengPingFan/CSU) |
-| <img alt="SURVEY" src="https://img.shields.io/badge/SURVEY-555555?style=for-the-badge"> | 2020/Aug | arXiv | RGB-D Salient Object Detection: A Survey | `RGBD-SOD` `Survey` `Benchmark` | [Paper](https://arxiv.org/abs/2008.00230) / [Project](https://github.com/taozh2017/RGBDSODsurvey) |
-| <img alt="SURVEY" src="https://img.shields.io/badge/SURVEY-555555?style=for-the-badge"> | 2020/Jun | CVPR | Camouflaged Object Detection | `COD10K` `SINet` `Benchmark` | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html) / [Code](https://github.com/DengPingFan/SINet/) |
+| <img width="112" alt="SURVEY" src="https://img.shields.io/badge/SURVEY-3A3A3A?style=for-the-badge"> | 2024/Aug | arXiv | A Survey of Camouflaged Object Detection and Beyond | `COD` `Survey` | [Paper](https://arxiv.org/abs/2408.14562) |
+| <img width="112" alt="SURVEY" src="https://img.shields.io/badge/SURVEY-3A3A3A?style=for-the-badge"> | 2024/Jun | arXiv | ViDSOD-100: A New Dataset and A Baseline Model for RGB-D Video Salient Object Detection | `RGB-D` `Video` `Dataset` | [Paper](https://arxiv.org/abs/2406.12536) / [Code](https://github.com/jhl-Det/RGBD_Video_SOD) |
+| <img width="112" alt="SURVEY" src="https://img.shields.io/badge/SURVEY-3A3A3A?style=for-the-badge"> | 2023/Apr | arXiv | Advances in Deep Concealed Scene Understanding | `COD` `Survey` `Benchmark` | [Paper](https://arxiv.org/abs/2304.11234) / [Project](https://github.com/DengPingFan/CSU) |
+| <img width="112" alt="SURVEY" src="https://img.shields.io/badge/SURVEY-3A3A3A?style=for-the-badge"> | 2020/Aug | arXiv | RGB-D Salient Object Detection: A Survey | `RGBD-SOD` `Survey` `Benchmark` | [Paper](https://arxiv.org/abs/2008.00230) / [Project](https://github.com/taozh2017/RGBDSODsurvey) |
+| <img width="112" alt="SURVEY" src="https://img.shields.io/badge/SURVEY-3A3A3A?style=for-the-badge"> | 2020/Jun | CVPR | Camouflaged Object Detection | `COD10K` `SINet` `Benchmark` | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html) / [Code](https://github.com/DengPingFan/SINet/) |
 
 ## Salient Object Detection
 
@@ -85,7 +85,7 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="SOD" src="https://img.shields.io/badge/SOD-00B050?style=for-the-badge"> | 2024/Aug | ACM MM | Multi-Scale and Detail-Enhanced Segment Anything Model for Salient Object Detection | `SAM` `Adapter` | [Paper](https://arxiv.org/abs/2408.04326) / [Code](https://github.com/BellyBeauty/MDSAM) |
+| <img width="92" alt="SOD" src="https://img.shields.io/badge/SOD-00C853?style=for-the-badge"> | 2024/Aug | ACM MM | Multi-Scale and Detail-Enhanced Segment Anything Model for Salient Object Detection | `SAM` `Adapter` | [Paper](https://arxiv.org/abs/2408.04326) / [Code](https://github.com/BellyBeauty/MDSAM) |
 
 ## RGB-D Salient Object Detection
 
@@ -93,12 +93,12 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2025/Nov | AAAI | SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://arxiv.org/abs/2511.09870) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2025/Sep | ACM MM | LEAF-Mamba: Local Emphatic and Adaptive Fusion State Space Model for RGB-D Salient Object Detection | `RGB-D` `Mamba` `Fusion` | [Paper](https://arxiv.org/abs/2509.18683) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2024/Oct | arXiv | MambaSOD: Dual Mamba-Driven Cross-Modal Fusion Network for RGB-D Salient Object Detection | `RGB-D` `Mamba` `Fusion` | [Paper](https://arxiv.org/abs/2410.15015) / [Code](https://github.com/YueZhan721/MambaSOD) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2024/Jun | arXiv | ViDSOD-100: A New Dataset and A Baseline Model for RGB-D Video Salient Object Detection | `RGB-D` `Video` `Dataset` | [Paper](https://arxiv.org/abs/2406.12536) / [Code](https://github.com/jhl-Det/RGBD_Video_SOD) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | TODO | TODO | RGB-D SOD with SAM fine-tuning | `RGB-D` `SAM` `PEFT` | Paper / Code |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2025/Nov | AAAI | SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://arxiv.org/abs/2511.09870) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2025/Sep | ACM MM | LEAF-Mamba: Local Emphatic and Adaptive Fusion State Space Model for RGB-D Salient Object Detection | `RGB-D` `Mamba` `Fusion` | [Paper](https://arxiv.org/abs/2509.18683) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2024/Oct | arXiv | MambaSOD: Dual Mamba-Driven Cross-Modal Fusion Network for RGB-D Salient Object Detection | `RGB-D` `Mamba` `Fusion` | [Paper](https://arxiv.org/abs/2410.15015) / [Code](https://github.com/YueZhan721/MambaSOD) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2024/Jun | arXiv | ViDSOD-100: A New Dataset and A Baseline Model for RGB-D Video Salient Object Detection | `RGB-D` `Video` `Dataset` | [Paper](https://arxiv.org/abs/2406.12536) / [Code](https://github.com/jhl-Det/RGBD_Video_SOD) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | TODO | TODO | RGB-D SOD with SAM fine-tuning | `RGB-D` `SAM` `PEFT` | Paper / Code |
 
 ## Camouflaged Object Detection
 
@@ -106,8 +106,8 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | Beyond Appearance: Camouflaged Object Detection via Geometric Structure | `Geometry` `DepthSAM` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.html) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2025/Aug | arXiv | ArgusCogito: Chain-of-Thought for Cross-Modal Synergy and Omnidirectional Reasoning in Camouflaged Object Segmentation | `VLM` `CoT` `Zero-Shot` | [Paper](https://arxiv.org/abs/2508.18050) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | Beyond Appearance: Camouflaged Object Detection via Geometric Structure | `Geometry` `DepthSAM` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.html) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2025/Aug | arXiv | ArgusCogito: Chain-of-Thought for Cross-Modal Synergy and Omnidirectional Reasoning in Camouflaged Object Segmentation | `VLM` `CoT` `Zero-Shot` | [Paper](https://arxiv.org/abs/2508.18050) |
 
 ## Weak / Semi / Unsupervised COD
 
@@ -115,9 +115,9 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | EReCu: Pseudo-label Evolution Fusion and Refinement with Multi-Cue Learning for Unsupervised Camouflage Detection | `Unsupervised` `Pseudo-Label` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_EReCu_Pseudo-label_Evolution_Fusion_and_Refinement_with_Multi-Cue_Learning_for_CVPR_2026_paper.html) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | Beyond Weak Supervision: MLLMs-Guided Graded Knowledge Distillation for Unsupervised Camouflaged Object Detection | `Unsupervised` `MLLM` `Distillation` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Beyond_Weak_Supervision_MLLMs-Guided_Graded_Knowledge_Distillation_for_Unsupervised_Camouflaged_CVPR_2026_paper.html) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2024/Aug | arXiv | SAM-COD: SAM-guided Unified Framework for Weakly-Supervised Camouflaged Object Detection | `Weak` `SAM` | [Paper](https://arxiv.org/abs/2408.10760) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | EReCu: Pseudo-label Evolution Fusion and Refinement with Multi-Cue Learning for Unsupervised Camouflage Detection | `Unsupervised` `Pseudo-Label` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_EReCu_Pseudo-label_Evolution_Fusion_and_Refinement_with_Multi-Cue_Learning_for_CVPR_2026_paper.html) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | Beyond Weak Supervision: MLLMs-Guided Graded Knowledge Distillation for Unsupervised Camouflaged Object Detection | `Unsupervised` `MLLM` `Distillation` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Beyond_Weak_Supervision_MLLMs-Guided_Graded_Knowledge_Distillation_for_Unsupervised_Camouflaged_CVPR_2026_paper.html) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2024/Aug | arXiv | SAM-COD: SAM-guided Unified Framework for Weakly-Supervised Camouflaged Object Detection | `Weak` `SAM` | [Paper](https://arxiv.org/abs/2408.10760) |
 
 ## Open-Vocabulary / Referring COD
 
@@ -125,11 +125,11 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection | `Open-Vocab` `Text` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liang_SDDF_Specificity-Driven_Dynamic_Focusing_for_Open-Vocabulary_Camouflaged_Object_Detection_CVPR_2026_paper.html) / [Code](https://github.com/Zh1fen/SDDF) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | Seeing Both Sides: Towards Bidirectional Semantic Alignment for Open-Vocabulary Camouflaged Object Segmentation | `Open-Vocab` `CLIP` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Seeing_Both_Sides_Towards_Bidirectional_Semantic_Alignment_for_Open-Vocabulary_Camouflaged_CVPR_2026_paper.html) / [Code](https://github.com/okmaybach/BaCLIP-CVPR2026) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | Training-Free Open-Vocabulary Camouflaged Object Segmentation via Fine-Grained Object Binding and Adaptive Hybrid Prompt | `Open-Vocab` `Training-Free` `Prompt` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Ren_Training-Free_Open-Vocabulary_Camouflaged_Object_Segmentation_via_Fine-Grained_Object_Binding_and_CVPR_2026_paper.html) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2025/Aug | arXiv | A Simple yet Powerful Instance-Aware Prompting Framework for Training-free Camouflaged Object Segmentation | `Training-Free` `Prompt` `SAM` | [Paper](https://arxiv.org/abs/2508.06904) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2025/Jun | arXiv | Open-Vocabulary Camouflaged Object Segmentation with Cascaded Vision Language Models | `Open-Vocab` `VLM` `SAM` | [Paper](https://arxiv.org/abs/2506.19300) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection | `Open-Vocab` `Text` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liang_SDDF_Specificity-Driven_Dynamic_Focusing_for_Open-Vocabulary_Camouflaged_Object_Detection_CVPR_2026_paper.html) / [Code](https://github.com/Zh1fen/SDDF) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | Seeing Both Sides: Towards Bidirectional Semantic Alignment for Open-Vocabulary Camouflaged Object Segmentation | `Open-Vocab` `CLIP` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Seeing_Both_Sides_Towards_Bidirectional_Semantic_Alignment_for_Open-Vocabulary_Camouflaged_CVPR_2026_paper.html) / [Code](https://github.com/okmaybach/BaCLIP-CVPR2026) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | Training-Free Open-Vocabulary Camouflaged Object Segmentation via Fine-Grained Object Binding and Adaptive Hybrid Prompt | `Open-Vocab` `Training-Free` `Prompt` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Ren_Training-Free_Open-Vocabulary_Camouflaged_Object_Segmentation_via_Fine-Grained_Object_Binding_and_CVPR_2026_paper.html) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2025/Aug | arXiv | A Simple yet Powerful Instance-Aware Prompting Framework for Training-free Camouflaged Object Segmentation | `Training-Free` `Prompt` `SAM` | [Paper](https://arxiv.org/abs/2508.06904) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2025/Jun | arXiv | Open-Vocabulary Camouflaged Object Segmentation with Cascaded Vision Language Models | `Open-Vocab` `VLM` `SAM` | [Paper](https://arxiv.org/abs/2506.19300) |
 
 ## SAM and Foundation Models
 
@@ -137,12 +137,12 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
-| <img alt="RGBD-SOD" src="https://img.shields.io/badge/RGBD--SOD-FF5A00?style=for-the-badge"> | 2025/Nov | AAAI | SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://arxiv.org/abs/2511.09870) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2025/Sep | ACM MM | SAM-TTT: Segment Anything Model via Reverse Parameter Configuration and Test-Time Training for Camouflaged Object Detection | `SAM` `TTA` | [Paper](https://arxiv.org/abs/2509.11884) / [Code](https://github.com/guobaoxiao/SAM-TTT) |
-| <img alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00B8C8?style=for-the-badge"> | 2025/Mar | arXiv | CamSAM2: Segment Anything Accurately in Camouflaged Videos | `VCOS` `SAM2` `Video` | [Paper](https://arxiv.org/abs/2503.19730) / [Code](https://github.com/zhoustan/CamSAM2) |
-| <img alt="SOD" src="https://img.shields.io/badge/SOD-00B050?style=for-the-badge"> | 2024/Aug | ACM MM | Multi-Scale and Detail-Enhanced Segment Anything Model for Salient Object Detection | `SAM` `Adapter` | [Paper](https://arxiv.org/abs/2408.04326) / [Code](https://github.com/BellyBeauty/MDSAM) |
-| <img alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-8A2BE2?style=for-the-badge"> | 2023/Apr | ICCV | Segment Anything | `SAM` `Foundation` | [Paper](https://arxiv.org/abs/2304.02643) / [Project](https://segment-anything.com) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2026/Jun | CVPR | M4-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_M4-SAM_Multi-Modal_Mixture-of-Experts_with_Memory-Augmented_SAM_for_RGB-D_Video_Salient_CVPR_2026_paper.html) |
+| <img width="128" alt="RGB-D SOD" src="https://img.shields.io/badge/RGB--D%20SOD-FF4D00?style=for-the-badge"> | 2025/Nov | AAAI | SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection | `RGB-D` `Video` `SAM2` | [Paper](https://arxiv.org/abs/2511.09870) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2025/Sep | ACM MM | SAM-TTT: Segment Anything Model via Reverse Parameter Configuration and Test-Time Training for Camouflaged Object Detection | `SAM` `TTA` | [Paper](https://arxiv.org/abs/2509.11884) / [Code](https://github.com/guobaoxiao/SAM-TTT) |
+| <img width="104" alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00CFE8?style=for-the-badge"> | 2025/Mar | arXiv | CamSAM2: Segment Anything Accurately in Camouflaged Videos | `VCOS` `SAM2` `Video` | [Paper](https://arxiv.org/abs/2503.19730) / [Code](https://github.com/zhoustan/CamSAM2) |
+| <img width="92" alt="SOD" src="https://img.shields.io/badge/SOD-00C853?style=for-the-badge"> | 2024/Aug | ACM MM | Multi-Scale and Detail-Enhanced Segment Anything Model for Salient Object Detection | `SAM` `Adapter` | [Paper](https://arxiv.org/abs/2408.04326) / [Code](https://github.com/BellyBeauty/MDSAM) |
+| <img width="128" alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-9B00FF?style=for-the-badge"> | 2023/Apr | ICCV | Segment Anything | `SAM` `Foundation` | [Paper](https://arxiv.org/abs/2304.02643) / [Project](https://segment-anything.com) |
 
 ## Joint SOD-COD / Universal Foreground
 
@@ -150,8 +150,8 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-8A2BE2?style=for-the-badge"> | 2023/Nov | arXiv | VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning | `Prompt` `Generalist` | [Paper](https://arxiv.org/abs/2311.15011) / [Code](https://github.com/Sssssuperior/VSCode) |
-| <img alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-8A2BE2?style=for-the-badge"> | TODO | TODO | Joint RGB-D COD and SOD training | `RGB-D` `Multi-Task` | Paper / Code |
+| <img width="128" alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-9B00FF?style=for-the-badge"> | 2023/Nov | arXiv | VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning | `Prompt` `Generalist` | [Paper](https://arxiv.org/abs/2311.15011) / [Code](https://github.com/Sssssuperior/VSCode) |
+| <img width="128" alt="SOD-COD" src="https://img.shields.io/badge/SOD--COD-9B00FF?style=for-the-badge"> | TODO | TODO | Joint RGB-D COD and SOD training | `RGB-D` `Multi-Task` | Paper / Code |
 
 ## Video and Instance-Level Tasks
 
@@ -159,8 +159,8 @@ Sorted by release date, newest first.
 
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00B8C8?style=for-the-badge"> | 2025/Mar | arXiv | CamSAM2: Segment Anything Accurately in Camouflaged Videos | `VCOS` `SAM2` `Video` | [Paper](https://arxiv.org/abs/2503.19730) / [Code](https://github.com/zhoustan/CamSAM2) |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2023/Aug | ACM MM | A Unified Query-based Paradigm for Camouflaged Instance Segmentation | `CIS` `Query` | [Paper](https://arxiv.org/abs/2308.07392) / [Code](https://github.com/dongbo811/UQFormer) |
+| <img width="104" alt="VIDEO" src="https://img.shields.io/badge/VIDEO-00CFE8?style=for-the-badge"> | 2025/Mar | arXiv | CamSAM2: Segment Anything Accurately in Camouflaged Videos | `VCOS` `SAM2` `Video` | [Paper](https://arxiv.org/abs/2503.19730) / [Code](https://github.com/zhoustan/CamSAM2) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2023/Aug | ACM MM | A Unified Query-based Paradigm for Camouflaged Instance Segmentation | `CIS` `Query` | [Paper](https://arxiv.org/abs/2308.07392) / [Code](https://github.com/dongbo811/UQFormer) |
 
 ## Datasets
 
@@ -182,7 +182,7 @@ Recommended entry format:
 ```markdown
 | Task | Release | Pub. | Title | Tags | Links |
 | --- | --- | --- | --- | --- | --- |
-| <img alt="COD" src="https://img.shields.io/badge/COD-005BFF?style=for-the-badge"> | 2026/Jun | CVPR | Paper Title | `SAM` `Open-Vocab` | [Paper](url) / [Code](url) |
+| <img width="92" alt="COD" src="https://img.shields.io/badge/COD-0066FF?style=for-the-badge"> | 2026/Jun | CVPR | Paper Title | `SAM` `Open-Vocab` | [Paper](url) / [Code](url) |
 ```
 
 ## Citation
